@@ -1,7 +1,5 @@
 package ocp.after;
 
-import solid.ocp.before.NotificationEmergencyLevel;
-
 public class ErrorHandler extends AlertHandler{
 
     private long errorRate;
