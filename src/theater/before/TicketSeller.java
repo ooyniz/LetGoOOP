@@ -7,16 +7,14 @@ public class TicketSeller {
         this.ticketOffice = ticketOffice;
     }
 
-    public void sellTo(Audience audience) {
+    /*public void sellTo(Audience audience) {
         Ticket ticket = ticketOffice.getTicket();
         Long amount = audience.buy(ticket);
         ticketOffice.plusAmount(amount);
 
-    }
-
-
-
-    /*public TicketOffice getTicketOffice() {
-        return ticketOffice;
     }*/
+
+    public TicketOffice getTicketOffice() {
+        return ticketOffice;
+    }
 }
