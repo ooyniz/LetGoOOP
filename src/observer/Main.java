@@ -1,8 +1,10 @@
 package observer;
 
+import java.io.IOException;
+
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         Subject concreteSubject = new ConcreteSubject();
         Observer consoleObserver = new ConsoleObserver();
         Observer fileObserver = new FileObserver();
